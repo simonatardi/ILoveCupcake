@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <!-- Gli oggetti che riguardano gli ingredienti -->
+    <TextView
+        android:id="@+id/listaIngredienti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="53dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Ingredienti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/listaIngredienti"
+        android:layout_alignLeft="@+id/listaIngredienti"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="@string/ingre" />
+
+    <!-- Riguardano il Procedimento -->
+    <TextView
+        android:id="@+id/Procedimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proce"
+         android:layout_alignStart="@+id/listaIngredienti"
+        android:layout_alignLeft="@+id/listaIngredienti"
+        android:layout_alignParentTop="true"
+       android:layout_marginLeft="16dp"
+       android:layout_marginStart="20sp"
+         android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/proce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginLeft="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="53dp"     
+         android:layout_marginRight="16dp"
+        android:layout_alignTop="@+id/listaIngredienti"
+         android:layout_alignStart="@+id/listaIngredienti"
+        android:layout_alignLeft="@+id/listaIngredienti"
+         android:textSize="15sp"/>
+
+   
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ilovecupcake"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" android:maxSdkVersion="21"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- per scrivere uslla memoria -->
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cerca"
+            android:label="@string/title_activity_cerca" >
+        </activity>
+        <activity
+            android:name=".ListaNomi"
+            android:label="@string/title_activity_lista_nomi" >
+        </activity>
+        <activity
+            android:name=".VisualizzaUrl"
+            android:label="@string/title_activity_visualizza_url" >
+        </activity>
+        <activity
+            android:name=".Video"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".VisualizzaRicetta"
+            android:label="@string/title_activity_visualizza_ricetta" >
+        </activity>
+        <activity
+            android:name=".ListaSalvate"
+            android:label="@string/title_activity_lista_salvate" >
+        </activity>
+        <activity
+            android:name=".LeggiRicetta"
+            android:label="@string/title_activity_leggi_ricetta" >
+        </activity>
+        <activity
+            android:name=".Inserisci"
+            android:label="@string/title_activity_inserisci"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".CalcolaIngredienti"
+            android:label="@string/title_activity_calcola_ingredienti" >
+        </activity>
+        <activity
+            android:name=".LoginAmministratore"
+            android:label="@string/title_activity_login_amministratore" >
+        </activity>
+        <activity
+            android:name=".RicetteUtenti"
+            android:label="@string/title_activity_ricette_utenti" >
+        </activity>
+        <activity
+            android:name=".LeggiUtente"
+            android:label="@string/title_activity_leggi_utente" >
+        </activity>
+
+       
+    </application>
+
+</manifest>

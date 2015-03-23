@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/sfondosfumato" >
+ 
+  
+     <Button
+        android:id="@+id/c_ingredienti"
+        style="@style/bottone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nome_ricetta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:background="@color/bianco"
+        android:text="@string/ingre" />
+
+    <EditText
+        android:id="@+id/nome_ricetta"
+        style="@style/inserimenti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/bianco"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="15"
+        android:inputType="text"
+        android:hint="@string/nome_rice" />
+      
+    <EditText
+         android:id="@+id/e_uova"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/nome_ricetta"
+         android:layout_alignStart="@+id/nome_ricetta"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="26dp"
+         android:layout_marginStart="20dp"
+         android:background="#CCFFFFFF"
+         android:ems="6"
+         android:hint="@string/n_uova"
+         android:inputType="number" />
+
+     <EditText
+         android:id="@+id/e_latte"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/e_uova"
+         android:layout_alignRight="@+id/e_uova"
+         android:layout_alignEnd="@+id/e_uova"
+         android:layout_alignStart="@+id/e_uova"
+         android:layout_below="@+id/e_uova"
+         android:layout_marginTop="32dp"
+         android:background="#CCFFFFFF"
+         android:ems="3"
+         android:hint="@string/q_latte"
+         android:inputType="number" >
+
+         <requestFocus />
+     </EditText>
+
+    <EditText
+        android:id="@+id/efarina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/e_ingrediente"
+        android:layout_alignLeft="@+id/e_ingrediente"
+        android:layout_alignRight="@+id/e_latte"
+        android:layout_alignStart="@+id/e_ingrediente"
+        android:layout_below="@+id/e_latte"
+        android:layout_marginTop="38dp"
+        android:background="#CCFFFFFF"
+        android:ems="3"
+        android:hint="@string/qfarina"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/e_ingrediente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/e_latte"
+        android:layout_alignRight="@+id/e_latte"
+         android:layout_alignEnd="@+id/e_latte"
+        android:layout_alignStart="@+id/e_latte"
+        android:layout_below="@+id/efarina"
+        android:layout_marginTop="33dp"
+        android:background="#CCFFFFFF"
+        android:ems="10"
+        android:hint="@string/ing_prin"
+        android:inputType="text" />
+
+</RelativeLayout>

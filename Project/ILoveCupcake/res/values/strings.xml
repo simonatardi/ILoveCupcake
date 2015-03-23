@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ILoveCupcake</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="inserisci">Inserisci ricetta</string>
+    <string name="nome">Nome Ricetta</string>
+    <string name="ingre">Ingredienti</string>
+    <string name="cerca">Cerca</string>
+    <string name="t_cerca">Cerca Per</string>
+    <string name="nome_rice">Scrivi nome della ricetta</string>
+    <string name="ingre_poss">Ingredienti che hai</string>
+    <string name="uova">Uova</string>
+    <string name="latte">Latte</string>
+    <string name="ing_prin">Ingr. principale</string>
+    <string name="n_uova">Num. uova</string>
+    <string name="q_latte">Ml. latte</string>
+    <string name="qfarina">Gr. farina</string>
+
+    <color name="bianco">#DDFFFFFF</color>
+
+    <string name="title_activity_cerca">Cerca</string>
+    <string name="title_activity_lista_nomi">ListaNomi</string>
+    <string name="nomiPossibili">Ricette trovate</string>
+    <string name="title_activity_visualizza_url">VisualizzaUrl</string>
+    <string name="Ricetta">Ricetta: </string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_visualizza_ricetta">Ricetta</string>
+    <string name="proce"> Procedimento</string>
+    <string name="salva"> Salva Ricetta</string>
+    <string name="video">Video</string>
+    <string name="salvate">Ricette salvate</string>
+    <string name="title_activity_lista_salvate">Lista Salvate</string>
+    <string name="title_activity_leggi_ricetta">Leggi Ricetta</string>
+    <string name="leggi">Leggi Ricetta</string>
+    <string name="cancella">Cancella la Ricetta</string>
+    <string name="title_activity_inserisci">Inserisci tua Ricetta</string>
+    <string name="num">Num.</string>
+    <string name="unita">Unità di misura</string>
+    <string name="ingrediente">Ingrediente</string>
+    <string name="aggiungi">Aggiungi ingrediente</string>
+    <string name="urlVideo">Indirizzo video (Youtube)</string>
+    <string name="n_persone">Num. Persone</string>
+    <string name="calcPersone">Calcola Ingredienti</string>
+    <string name="title_activity_calcola_ingredienti">Calcola Ingredienti</string>
+    <string name="salvaing">Salva dosi</string>
+    <string name="accAmmin">Account amministratore</string>
+    <string name="title_activity_login_amministratore">Login Amministratore</string>
+    <string name="nomeAmm">Nome</string>
+    <string name="pass">Password</string>
+    <string name="accedi">Accedi</string>
+    <string name="title_activity_ricette_utenti">Ricette Utenti</string>
+    <string name="utente">Ricette degli utenti</string>
+    <string name="title_activity_leggi_utente">Leggi Utente</string>
+    <string name="post">Post</string>
+    <string name="facebook_app_id">885854504809723</string>
+    <string name="title_activity_accesso_facebook">Accesso Facebook</string>
+
+</resources>

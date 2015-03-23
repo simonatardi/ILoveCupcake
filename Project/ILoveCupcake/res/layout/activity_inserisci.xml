@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/sfondosfumato" >
+
+    <EditText
+        android:id="@+id/eNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="34dp"
+        android:background="@color/bianco"
+        android:ems="3"
+        android:hint="@string/num"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/eIngrediente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eNum"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/eNum"
+         android:layout_toEndOf="@+id/eNum"
+            android:background="@color/bianco"
+        android:hint="@string/ingrediente"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bAggiungi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/eIngrediente"
+        android:layout_alignLeft="@+id/eIngrediente"
+        android:layout_below="@+id/eIngrediente"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="33dp"
+        android:background="@color/bianco"
+        android:text="@string/aggiungi" />
+
+    <Button
+        android:id="@+id/bsalva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eVideo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/eVideo"
+        android:layout_marginBottom="17dp"
+        android:background="@color/bianco"
+        android:text="@string/salva" />
+
+    <EditText
+        android:id="@+id/eVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bsalva"
+        android:layout_alignEnd="@+id/eProce"
+          android:layout_alignRight="@+id/eProce"
+      
+        android:layout_alignLeft="@+id/eProce"
+        android:layout_alignStart="@+id/eProce"
+        android:layout_marginBottom="21dp"
+        android:background="@color/bianco"
+        android:ems="10"
+        android:hint="@string/urlVideo"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/eRicetta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eProce"
+        android:layout_alignStart="@+id/eProce"
+        android:layout_alignEnd="@+id/eProce"
+        android:layout_alignRight="@+id/eProce"
+        android:layout_centerVertical="true"
+        android:inputType="text"
+        android:hint="@string/nome_rice"
+      android:background="@color/bianco"
+        android:ems="15" />
+
+    <EditText
+        android:id="@+id/eProce"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_above="@+id/eVideo"
+        android:layout_alignEnd="@+id/eIngrediente"
+        android:layout_alignRight="@+id/eIngrediente"
+        android:layout_alignStart="@+id/eNum"
+        android:layout_alignLeft="@+id/eNum"
+        android:gravity="top"
+        android:layout_marginBottom="22dp"
+        android:background="@color/bianco"
+        android:ems="10"
+        android:hint="@string/proce"
+        android:inputType ="textMultiLine"
+       android:lines="2"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+       />
+
+    <EditText
+        android:id="@+id/epersone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eVideo"
+         android:layout_alignStart="@+id/eVideo"
+        android:layout_below="@+id/eVideo"
+        android:ems="4"
+        android:hint="@string/n_persone"
+        android:inputType="number" 
+        android:background="@color/bianco"/>
+
+    <EditText
+        android:id="@+id/eUni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/eIngrediente"
+        android:layout_alignRight="@+id/eIngrediente"
+         android:layout_alignEnd="@+id/eIngrediente"
+       
+       android:background="@color/bianco"
+        android:ems="8"
+        android:hint="@string/unita"
+        android:inputType="text" />
+
+</RelativeLayout>

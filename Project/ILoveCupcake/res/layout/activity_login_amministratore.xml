@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/sfondosfumato" >
+
+    <EditText
+        android:id="@+id/eNomeAmm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="58dp"
+        android:hint="@string/nomeAmm"
+        android:inputType="text"
+        android:background="@color/bianco"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eNomeAmm"
+        android:layout_alignStart="@+id/eNomeAmm"
+        android:layout_below="@+id/eNomeAmm"
+        android:layout_marginTop="66dp"
+        android:ems="10"
+        android:hint="@string/pass"
+         android:background="@color/bianco"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/baccedi"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ePass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:background="@color/bianco"
+        android:text="@string/accedi" />
+
+</RelativeLayout>

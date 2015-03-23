@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@drawable/sfondosfumato" >
+
+    <Button
+        android:id="@+id/b_cerca"
+        style="@style/bottone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:background="@color/bianco"
+        android:text="@string/cerca" />
+
+    <Button
+        android:id="@+id/b_salvate"
+        style="@style/bottone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/b_inserisci"
+        android:layout_alignStart="@+id/b_inserisci"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/b_inserisci"
+        android:layout_alignEnd="@+id/b_inserisci"
+        android:layout_marginBottom="71dp"
+        android:background="@color/bianco"
+        android:text="@string/salvate" />
+
+    <Button
+        android:id="@+id/b_inserisci"
+        style="@style/bottone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/bianco"
+        android:text="@string/inserisci" />
+
+</RelativeLayout>

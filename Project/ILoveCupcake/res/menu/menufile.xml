@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!-- Questo layout contiene il menu che sarà visualizzato nell'activity LeggiRicetta -->
+    <item 
+        android:id="@+id/MenuLeggi"
+        android:title="@string/leggi" />
+    <item 
+        android:id="@+id/MenuCancella"
+        android:title="@string/cancella" />
+       
+
+</menu>
